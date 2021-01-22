@@ -1,0 +1,38 @@
+html body{
+    overflow-x: hidden;
+}
+.image{
+    background-image: url("dep.jpg");
+    height: 38rem;
+    width: 100%;
+}
+.intro{
+    margin: auto;
+    padding-left: 40%;
+    padding-top: 25%;
+}
+.contactme{
+    margin: auto;
+    padding-left: 45%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.skill{
+    padding-left: 8%;
+}
+.colo{
+    background-color: honeydew;
+}
+.skill{
+    background-color: honeydew;
+}
+.perf{
+        vertical-align: middle;
+        border-style: none;
+}
+.project{
+    background-color: honeydew;
+}
+.contactme{
+    background-color: honeydew;
+}
