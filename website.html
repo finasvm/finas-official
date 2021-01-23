@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,29 +10,39 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   
 </head>
-
+<body>
+  <header  style="position: fixed;width: 100%;z-index:1;">
+    <div class="row" style="background-color: honeydew;">
+      <div class="col-md-6 pt-2 ">
+        <h3>Finas vm.</h3>
+      </div>
+      <div class="col-md-6 pb-3">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Finas vm</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav" mr-auto>
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="#">Who Am I</a>
+          <a class="nav-link" href="#WHO AM I-section">Who Am I</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">My Skills</a>
+          <a class="nav-link" href="#My Skills-section">My Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact us</a>
+          <a class="nav-link" href="#My Project">My Project</a>
         </li>
-    </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact me">Contact me</a>
+        </li>
+      </ul>
+    </div> 
   </div>
 </nav>
+</header>
 
 <section>
   <div class="image pb-5">
@@ -41,11 +51,13 @@
       <h1><i>"I AM HOW I AM"</h1></i>
     </div>
   </div>
+  <div id="WHO AM I-section"></div>
 </section>
+<div class="bg">
 <div class="container colo">
- <section class="">
+ <section  class="colo">
    <div class="who text-center pt-5">
-     <h1> WHO AM I</h1>
+    <h1> WHO AM I</h1>
        <hr>
          </div>
   <div class="article pt-5 pb-3 ">
@@ -57,30 +69,28 @@
           .</h5>
       </div>
       <div class="col-md-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 10rem;">
           <img src="finas.jpg" class="card-img-top" alt="">
         </div>
       </div>
+      
      <div class="col-md-4 ">
         <u><h2>Details</h2></u>
         <h5>Name : Finas V M</h5>
+        <div id="My Skills-section"></div>
         <h5>Age : 21</h5>
         <h5>Address : Al-fajr(H), chelannur(P.O), Ambalathu kulangara - 673616</h5> 
       </div>
     </div>  
   </div>
 </section> 
-</div>
 
 <section>
   <div class="skill pt-3 text-center">
-    <div class="row">
-      <div class="col-md-12 pt-5">
     <h1 class="pr-5">My Skills</h1>
     <hr>
     </div>
-    </div>
-    <div class="row pl-5 pr-5 pt-5">
+    <div class="row mr-auto">
       <div class="col-md-3">
         <div class="card" style="width: 10rem;">
           <img src="cpp.png" class="card-img-top" alt="">
@@ -98,6 +108,7 @@
       </div>
       <div class="col-md-3">
         <div class="card" style="width: 10rem;">
+          <a name="My Project"></a>
           <img src="css.png" class="card-img-top" alt="">
         </div>
       </div>
@@ -107,29 +118,30 @@
 
 <section>
 <div class="project text-center pt-3 pb-3">
-  <div class="row">
-    <div class="col-md-12">
-<h1>My Projects</h1><hr>
+    <div class="pro ml-auto">
+<h1 class="middle">My Project</h1><hr>
 </div>
-</div>
-<div class="row">
-<div class="col-md-6 pl-5 pt-5 ">
+<div class="row mr-auto">
+<div class="col-md-6 pl-5 pt-5 mr-auto ">
     <img class="perf" src="receptionist.png" alt="...">
     </div>
-      <div class="col-md-6 pt-5">  
-       <h4>AI RECEPTIONIST is an android application that plays the role of a receptionist . AI Receptionist utilizes voice recognition text and artificial intelligence to allow computer to interact with anyone who may face the system or send message to the system.
-      </h4>
-      </div>
+      <div class="col-md-6 pt-5"> 
+        <ul> 
+      <li><h4>AI RECEPTIONIST is an android application that plays the role of a receptionist.</h4></li>
+      <li><h4>AI Receptionist utilizes voice recognition text and artificial intelligence to allow computer to interact with anyone who may face the system or send message to the system.</li></h4>
+    <li><h4>AI RECEPTIONIST will reduce many drawbacks in excisting system</li></h4></ul>  
+    </div>
       </div>
 
 </section>
+<a name="Contact me"></a>
 
 <section class="contactme">
   <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-  Contact Me
+  Contact Me</a>
 </button>
-
+</div>
 <!-- Modal -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">

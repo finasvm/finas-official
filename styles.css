@@ -1,10 +1,15 @@
 html body{
     overflow-x: hidden;
 }
+.bg{
+    background-color: honeydew;
+}
 .image{
     background-image: url("dep.jpg");
     height: 38rem;
     width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .intro{
     margin: auto;
@@ -17,9 +22,6 @@ html body{
     padding-top: 5%;
     padding-bottom: 5%;
 }
-.skill{
-    padding-left: 8%;
-}
 .colo{
     background-color: honeydew;
 }
@@ -27,12 +29,16 @@ html body{
     background-color: honeydew;
 }
 .perf{
-        vertical-align: middle;
-        border-style: none;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
 }
 .project{
     background-color: honeydew;
 }
 .contactme{
     background-color: honeydew;
+}
+.middle{
+    text-align: center;
 }
